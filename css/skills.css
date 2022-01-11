@@ -1,0 +1,62 @@
+ .skills{
+	 margin-left:30px;
+	 margin-right:30px;
+	 /* width:100%; */
+	 text-align:center;
+	 border-radius:10px;
+	 /* margin-bottom:100px; */
+	 
+	 
+ }
+ @keyframes shadow{
+	 0%, 100%{box-shadow:0px 0px 0px 0px grey}
+	 50%{box-shadow:0px 25px 23px -3px grey}
+ }
+ /* .skills:hover{ */
+	 /* animation: shadow 5s infinite; */
+ /* } */
+ .myskills{
+	 display:grid;
+	 grid-template-column:repeate(5,1fr);
+	 /* border-bottom:2px solid grey; */
+	 /*  */
+	 
+ }
+ .sk{
+	 margin:10px;
+	 box-shadow:0px 20px 20px 1px grey;
+	border-radius:20px;
+ }
+ .skill1{
+	grid-column:1/2;
+	/* border:1px solid red; */
+	
+ }
+ .skill2{
+	grid-column:2/3;
+ }
+ .skill3{
+	grid-column:3/4;
+ }
+ .skill4{
+	grid-column:4/5;
+ }
+ .skill5{
+	grid-column:5/6;
+ }
+ 
+
+ .graphNam{
+	 /* border:1px solid grey; */
+	 margin:10px auto;
+	 background-color:red;
+	 width:21px;
+	 padding:30px;
+	   background:radial-gradient(closest-side,white 70%, transparent 0 99.9%, white 0),
+  conic-gradient(green 0deg 210deg,white 90deg);
+ 
+ }
+ .graph{
+	 
+ }
+ 

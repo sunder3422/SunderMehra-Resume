@@ -1,0 +1,64 @@
+.contactDiv{
+  margin: 20px;
+  background-color: rgb(18 37 44);
+  padding: 20px;
+  color: white;
+  border-radius:10px;
+}
+.myContactDetails{
+  text-align: center;
+}
+.contactDiv div{
+  display: inline-block;;
+}
+
+.contactCards{
+  margin:20px;
+}
+
+.trcol{
+  height:36px;
+}
+
+table{
+      border-spacing: 18px;
+}
+#submitbutton{
+  text-align: center;
+}
+#submitBtn{
+  width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: bolder;
+    font-family: system-ui;
+    background-color: aquamarine;
+}
+input[type="text"],textarea
+{
+  border: none;
+border-radius: 10px;
+height: 30px;
+width: 330px;
+padding: 3px;
+box-shadow: 0px 2px 6px 1px #afaeb5;
+}
+textarea{
+  height:50px;
+}
+.formfill{
+  float: right;
+background-color: darkslategrey;
+vertical-align: middle;
+/* right: 0; */
+border-radius: 20px 0px 0px 20px;
+box-shadow: -9px 1px 20px 2px #4899df;
+}
+.formfilltable{
+    
+}
+.formfilltable tr{
+  width:100px;
+}
